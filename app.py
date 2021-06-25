@@ -46,15 +46,15 @@ Can secrete substances that cause fatigue and weight loss (paraneoplastic syndro
 
 May require aggressive treatment, including surgery, radiation, chemotherapy, and immunotherapy medications''')
 
-#from PIL import Image
+from PIL import Image
 
-#bvm = Image.open(r"images\bvm.jpg","r")
-#st.image(bvm)
-#st.title('Data Analysis')
+bvm = Image.open(r"images\bvm.jpg")
+st.image(bvm)
+st.title('Data Analysis')
 
-#heatmap = Image.open(r"graphs\heatmap.png","r")
-#st.image(heatmap)
-#st.write('The heatmap shows the multiple data have negative correlatation with one another')
+heatmap = Image.open(r"graphs\heatmap.png")
+st.image(heatmap)
+st.write('The heatmap shows the multiple data have negative correlatation with one another')
 
 userinput = []
 st.sidebar.header('Enter the following data: ')
