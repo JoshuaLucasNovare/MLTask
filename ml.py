@@ -24,7 +24,7 @@ X_test = sc.transform(X_test)
 
 accuracy_scores = {}
 def predictor(predictor, params, single_predict):
-    '''This function is made to test multiple '''
+    '''This function is made to test multiple training models'''
     global accuracy_scores
     if predictor == 'lr':
         st.title('Training Logistic Regression on Training Set')
